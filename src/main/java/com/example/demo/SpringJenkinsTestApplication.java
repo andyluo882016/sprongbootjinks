@@ -15,7 +15,7 @@ public class SpringJenkinsTestApplication {
 	
 	@GetMapping(path="/test")
 	public String MyTest() {
-		return "<h1>Hello My Jenkin Web Demos</h1>";
+		return "<h1>Hello My Jenkin Web Demos</h1>"+"<br><h3>My adding new Statement </h3>";
 	}
 
 }
