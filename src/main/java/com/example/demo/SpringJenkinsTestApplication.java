@@ -17,5 +17,10 @@ public class SpringJenkinsTestApplication {
 	public String MyTest() {
 		return "<h1>Hello My Jenkin Web Demos</h1>"+"<br><h3>My adding new Statement </h3>";
 	}
+	
+	@GetMapping(path="/show")
+	public String MyShow() {
+		return "<h1>Hello My Jenkin Adding new context</h1>"+"<br><h3>My adding new Say Hello </h3>";
+	}
 
 }
